@@ -1,5 +1,50 @@
-.hidden{
-display: none;
+.hidden {
+    display: none;
+}
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#login {
+    width: 50%;
+    max-width: 400px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: 0 0 2px 2px #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input-box{
+    width: 90%;
+    margin: 10px auto;
+    height: 50px;
+}
+
+input {
+    height:100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    background-color: aqua;
+    color: black;
+    float: right;
+    margin: 10px 5%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
+h1{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
